@@ -3,6 +3,10 @@ import { theme } from '../styles/theme'
 
 import type { AppProps } from 'next/app'
 
+if (process.env.NEXT_PUBLIC_API_MOCKING === 'enabled') {
+  require('../../mocks')
+}
+
 function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
