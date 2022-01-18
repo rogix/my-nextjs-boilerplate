@@ -1,5 +1,5 @@
 {
-  "name": "bvp-frontend",
+  "name": "another-nextjs-app",
   "private": true,
   "scripts": {
     "dev": "next dev",
